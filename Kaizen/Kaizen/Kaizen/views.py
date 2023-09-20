@@ -10,5 +10,5 @@ def about(request):
     return render(request, 'About.html')
 
 def registration(request):
-    # return HttpResponse('Register')
+    # return HttpResponse('Registration')
     return render(request, 'Registration.html')

@@ -5,7 +5,7 @@ from .import views
 urlpatterns = [
     path(r'admin/', admin.site.urls),
     path(r'Kaizen_Project/', include('Kaizen_Project.urls')),
-    path(r'registration/', views.registration),
+    path(r'register/', views.registration),
     path(r'about/', views.about),
     path(r'', views.homepage)
 ]
