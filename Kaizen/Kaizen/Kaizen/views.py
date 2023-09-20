@@ -8,3 +8,7 @@ def homepage(request):
 def about(request):
     # return HttpResponse('About Us')
     return render(request, 'About.html')
+
+def registration(request):
+    # return HttpResponse('Register')
+    return render(request, 'Registration.html')
