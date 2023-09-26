@@ -12,3 +12,7 @@ def about(request):
 def registration(request):
     # return HttpResponse('Registration Page')
     return render(request, 'Registration.html')
+
+def article_list(request):
+    # return HttpResponse('Article Page')
+    return render(request, 'article_list.html')

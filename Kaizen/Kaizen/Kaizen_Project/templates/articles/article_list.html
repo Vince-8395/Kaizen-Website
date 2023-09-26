@@ -3,8 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>List Of Professors and Total of Articles</title>
+        <link rel="stylesheet" href="/static/styles.css">
     </head>
     <body>
-        <h1>Article_list</h1>
+        <h1>Article Lists</h1>
+        <div class="Articles">
+            {% for article in Articles %}
+            <div class="article">
+                <h2><a href="#">{{article.title}}</a></h2>
+                <p>{{article.body}}</p>
+                <p>{{article.date}}</p>
+            </div>
+            {% endfor %}
+        </div>
     </body>
 </html>
