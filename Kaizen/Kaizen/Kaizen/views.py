@@ -13,6 +13,10 @@ def About(request):
     # return HttpResponse('About Us')
     return render(request, 'About.html')
 
+def Login(request):
+    # return HttpResponse('Login Page')
+    return render(request, 'Login.html')
+
 def Register(request):
     # return HttpResponse('Registration Page')
     return render(request, 'Registration.html')
